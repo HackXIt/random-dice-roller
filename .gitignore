@@ -1,1 +1,4 @@
+.gitignore
 .vscode
+random.pyc
+__pycache__
