@@ -1,5 +1,5 @@
 #!/bin/python3
-
+# https://www.reddit.com/r/beginnerprojects/comments/1j50e7/project_dice_rolling_simulator/
 import random
 
 Input = False
