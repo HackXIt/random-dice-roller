@@ -26,4 +26,4 @@ while not exit:
         rolled += 1
 for i in collection:
     counter = Counter(i)
-    print(counter)
+    print(counter.most_common())
