@@ -1,6 +1,7 @@
 #!/bin/python3
 # https://www.reddit.com/r/beginnerprojects/comments/1j50e7/project_dice_rolling_simulator/
 import random
+from collections import Counter
 
 Input = False
 while not Input:
@@ -24,4 +25,6 @@ while not exit:
     else:
         exit = False
         rolled += 1
-print(collection)
+for i in collection:
+    counter = Counter(i)
+    print(counter)
